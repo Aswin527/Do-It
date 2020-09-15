@@ -26,8 +26,8 @@
             android:layout_height="1dp" />
     </LinearLayout>
 
-    <view
-        class="androidx.appcompat.app.AlertController$RecycleListView"
+    <view class="androidx.recyclerview.widget.RecyclerView"
+        android:id="@+id/homeView"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_marginLeft="30dp"
